@@ -1,0 +1,19 @@
+h1. jQuery.Checkable
+
+By Alex Eckermann.
+
+jQuery.Checkable is a jQuery plugin which allows you to check child radio buttons or checkboxes.
+
+An example, in order to have a nice UI you want a user to select some images and to do this you need a checkbox but you don't want them to click a checkbox. Instead you want them to click the image and have a hidden checkbox. Well thats what this does, on click of a parent the child :radio and :checkbox elements are checked. It also flags the active parent to be selected.
+
+h2. Dependencies
+
+This plugin requires jQuery v1.4+ 
+
+h2. Usage
+
+_Ill have this up in a jiffly_
+
+h2. Issues
+
+Currently it assumes you only want 1 of the items selected in a collection, like a radio button, but this plugin is also meant for checkboxes. It just needs a slight adjustment to tell it not to or to clear out sibling selections.
